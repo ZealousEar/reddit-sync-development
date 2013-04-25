@@ -1,73 +1,119 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Reddit Sync by laurencedawson</title>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+<style>
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <center><img src="device.png"/></center>
-        <br/>
+body {
+	font-family: 'Roboto', sans-serif;
+	font-style:normal;
+	font-weight:300;
+	margin:auto;
+	overflow-x:hidden;
+	padding:0;
+	}
 
-<!--
-	<h3>Version 4.1.1 (Beta)</h3>
-        <ul>
-          <li><a href="https://github.com/laurencedawson/reddit-sync-development/raw/master/reddit-sync-4.1.1-beta.apk">Download <strong>APK File</strong></a></li>
-          <li><a href="https://raw.github.com/laurencedawson/reddit-sync-development/master/4.1.1">View <strong>Changelog</strong></a></li>
-          <li><a href="https://github.com/laurencedawson/reddit-sync-development/issues">Report <strong>Bugs</strong></a></li>
-        </ul>
+table
+{
+	margin:25px;
+border-collapse:collapse;
+table-layout: fixed;
+}
+table, td, th
+{
+border:1px solid black;
+}
 
--->
+th, td {
+    overflow: hidden;
+    width: 250px;
+	text-align:left;
+	font-size:20px;
+	padding:10px;
+}
 
-      </header>
-      <section>
-        
-<br/><br/>
-        <h1>Donate to reddit sync</h1>
+</style>
+</head>
 
-<p>If you would like to further donate to reddit sync development you can now do so using the PayPal button below. This will enable me to buy additional hardware for testing, offer bug bounties for testers and keep on developing reddit sync at the same fast pace.
-<center>
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="EXJSZY279SH3E">
-<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
-</form>
-</center>
-
-</p>
-
-<h3>Support and Contact</h3>
-
-<p><a href="mailto:android@laurencedawson.com">android@laurencedawson.com</a><br/>
-<a href="http://www.reddit.com/user/ljdawson/">ljdawson on Reddit</a></p>
-
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/laurencedawson">laurencedawson</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-31615230-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
-  </body>
+<body>
+	<center>	
+	<h1>reddit-sync-dev</h1>
+	<img src="http://i.imgur.com/yRRNzLs.png"/>	
+	<p>v8.0 md5: d1d226f04ece11bf2cb55bd07440f241</p>
+	
+		<table>
+			<tr>
+				<th>Feature</th>
+				<th>Progress</th>
+				<th>Ticket</th>
+			</tr>
+			
+			<tr bgcolor="#48ff52">
+				<td>Multi-account support</td>
+				<td>Finished</td>
+				<td><a href="https://github.com/laurencedawson/reddit-sync-development/issues/39">/issues/39</a></td>
+			</tr>
+			
+			<tr bgcolor="#48ff52">
+				<td>Subscribe to subreddits</td>
+				<td>Finished</td>
+				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/135">/issues/135</a></td>
+			</tr>
+			
+			<tr bgcolor="#48ff52">
+				<td>Refactor posts list</td>
+				<td>Finished</td>
+				<td></td>
+			</tr>
+			
+			<tr bgcolor="#48ff52">
+				<td>New slideout drawer</td>
+				<td>Finished</td>
+				<td></td>
+			</tr>			
+			
+			<tr bgcolor="#f9ff95">
+				<td>Casual</td>
+				<td>Refactoring</td>
+				<th></th>
+			</tr>										
+			
+			<tr bgcolor="#f9ff95">
+				<td>Messages</td>
+				<td>In-progress</td>
+				<th></th>
+			</tr>
+			
+			<tr bgcolor="#f9ff95">
+				<td>Submit</td>
+				<td>In-progress</td>
+				<th></th>
+			</tr>
+			
+			<tr bgcolor="#ff5248">
+				<td>Search</td>
+				<td>TODO</td>
+				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/99">/issues/99</a></td>
+			</tr>
+			
+			<tr bgcolor="#ff5248">
+				<td>Sync</td>
+				<td>TODO</td>
+				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/97">/issues/97</a></td>
+			</tr>
+			
+			<tr bgcolor="#ff5248">
+				<td>Mod tools</td>
+				<td>TODO</td>
+				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/26">/issues/26</a></td>
+			</tr>
+			
+			<tr bgcolor="#ff5248">
+				<td>Refactor settings</td>
+				<td>TODO</td>
+				<td></td>
+			</tr>				
+			
+		</table>	
+</body>
 </html>
