@@ -73,12 +73,6 @@ th, td {
 				<td></td>
 			</tr>			
 			
-			<tr bgcolor="#48ff52">
-				<td>More comments</td>
-				<td>Finished</td>
-				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/24">/issues/24</a></td>
-			</tr>
-
 			<tr bgcolor="#f9ff95">
 				<td>Casual</td>
 				<td>Refactoring</td>
@@ -95,6 +89,12 @@ th, td {
 				<td>Submit</td>
 				<td>In-progress</td>
 				<th></th>
+			</tr>
+			
+			<tr bgcolor="#48ff52">
+				<td>More comments</td>
+				<td>Finished</td>
+				<td><a href="			https://github.com/laurencedawson/reddit-sync-development/issues/24">/issues/24</a></td>
 			</tr>
 			
 			<tr bgcolor="#f9ff95">
